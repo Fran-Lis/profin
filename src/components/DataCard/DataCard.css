@@ -1,0 +1,32 @@
+.data-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-family: 'vt323';
+    font-size: 20px;
+    color: rgba(0, 238, 255, 0.651);
+}
+
+.time{
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .data-card{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .time{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+}

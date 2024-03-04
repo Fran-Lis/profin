@@ -1,0 +1,11 @@
+.last-update{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .last-update{
+        justify-content: end;
+    }
+}

@@ -1,0 +1,86 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-container{
+    /*border: 1px solid green;*/
+    padding: 10px;
+}
+
+label{
+    display: block;
+}
+
+input,
+select{
+    /*border: none;*/
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 3px;
+    /*background-color: rgba(128, 128, 128, 0.616);*/
+    background-color: black;
+    margin-bottom: 7px;
+    margin-top: 3px;
+    font-family: 'vt323';
+    font-size: 20px;
+    color: rgba(0, 238, 255, 0.651);
+}
+
+input:focus {
+    border: 1px solid rgba(0, 238, 255, 0.651);
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 10px;
+    /*width: 57px;*/
+}
+
+.btn:hover{
+    border-color: rgba(0, 238, 255, 0.651);
+    color: rgba(0, 238, 255, 0.651);
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1024px) {
+    form{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .btn-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .btn{
+        height: 26.67px;
+    }
+
+    #point-form{
+        display: flex;
+        /*padding-left: 20px;
+        padding-right: 20px;*/
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    
+    #point-form input{
+        height: 25.33px;  
+    }
+
+    #point-form input,
+    #point-form label{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

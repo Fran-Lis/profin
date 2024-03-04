@@ -1,0 +1,14 @@
+.loader-container{
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.loader-container p{
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+}
